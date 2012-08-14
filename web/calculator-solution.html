@@ -1,0 +1,94 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Javascript Calculator</title>
+        <link rel="stylesheet" media="screen, print, handheld" type="text/css" href="calculator.css" />
+        <script type="text/javascript" src="../lib/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../javascript/calculator-solution.js"></script>
+        <script type="text/javascript" src="calculator-binding.js"></script>
+    </head>
+    <body>
+        <table class="calculator">
+            <thead>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" readonly="readonly" class="display" />
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="button" value="CE" data-bind="C" />
+                    </td>
+                    <td>
+                        <input type="button" value="&larr;" data-bind="b" />
+                    </td>
+                    <td>
+                        <input type="button" value="%" />
+                    </td>
+                    <td>
+                        <input type="button" value="+" data-bind="+" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="7" data-bind="7" />
+                    </td>
+                    <td>
+                        <input type="button" value="8" data-bind="8" />
+                    </td>
+                    <td>
+                        <input type="button" value="9" data-bind="9" />
+                    </td>
+                    <td>
+                        <input type="button" value="-" data-bind="-" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" data-bind="4" />
+                    </td>
+                    <td>
+                        <input type="button" value="5" data-bind="5" />
+                    </td>
+                    <td>
+                        <input type="button" value="6" data-bind="6" />
+                    </td>
+                    <td>
+                        <input type="button" value="x" data-bind="*" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" data-bind="1" />
+                    </td>
+                    <td>
+                        <input type="button" value="2" data-bind="2" />
+                    </td>
+                    <td>
+                        <input type="button" value="3" data-bind="3" />
+                    </td>
+                    <td>
+                        <input type="button" value="&divide;" data-bind="/" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="0" data-bind="0" />
+                    </td>
+                    <td>
+                        <input type="button" value="&plusmn;" data-bind="!" />
+                    </td>
+                    <td>
+                        <input type="button" value="," />
+                    </td>
+                    <td>
+                        <input type="button" value="=" data-bind="=" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
